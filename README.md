@@ -25,7 +25,7 @@ The database structure is a star schema structure which consist of the below tab
 The Fact table measures and Diemnsion table hierarchies details can be found here (add link)
 
 ## Fabric Implementation (add files)
-- Workspace:
+- Workspace:Project1_IMSALES  Workspace.png
 - Staging:
 - Pipelines:
 - Key Dataflows 
