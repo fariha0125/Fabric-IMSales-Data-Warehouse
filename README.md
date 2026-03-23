@@ -16,13 +16,13 @@ Star schema design, Fabric Dataflows Gen2, Pipelines, SQL DW, data quality valid
 - **ETL**: Full pipeline from raw → staging → DW with quality checks.
 
 ## Architecture
-The database structure is a star schema structure which consist of teh below tables. 
+The database structure is a star schema structure which consist of the below tables. 
 
 <img width="1584" height="846" alt="image" src="https://github.com/user-attachments/assets/148b2399-4ac0-4e50-91dc-e15231e068b2" />
 
 The Fact table measures and Diemnsion table hierarchies details can be found here (add link)
 
-## Fabric implementation 
+## Fabric Implementation (add files)
 - Workspace:
 - Staging:
 - Pipelines:
