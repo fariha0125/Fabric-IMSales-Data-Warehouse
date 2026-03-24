@@ -23,7 +23,6 @@ The database structure is a star schema which consist of the below tables.
 <img width="1342" height="1198" alt="dw star schema" src="https://github.com/user-attachments/assets/ae1c6f7a-a4f7-4866-ad57-4bbe6ccd7aca" />
 
 
-
 ### The Fact table measures 
 | Table          | Grain                                          | Measures                                                        |
 | -------------- | ---------------------------------------------- | --------------------------------------------------------------- |
@@ -46,7 +45,7 @@ The database structure is a star schema which consist of the below tables.
 
 <img width="1546" height="1004" alt="Source csv files" src="https://github.com/user-attachments/assets/a3295d0b-d643-4bd9-91b2-9cc89f0a7849" />
 <br><br>
-**Staging Area** 
+**Staging Area**
 <img width="1768" height="712" alt="Staging Area IMSALES" src="https://github.com/user-attachments/assets/7f5286b8-67fc-4348-b266-46128f7832bd" />
 
 - STG_PROJECT1_IMSALES DW
@@ -55,29 +54,24 @@ The database structure is a star schema which consist of the below tables.
 
 ## Data Quality & Transformation 
 **4 validation rules** logged to log_quality_checks:
-1.	Business Key (PK) integrity per dim.
-2.	Dimension row uniqueness.
-3.	Fact composite FK (PK) uniqueness.
-4.	Referential integrity (fact FK → dim BK).
+1. Business Key (PK) integrity per dim.
+2. Dimension row uniqueness.
+3. Fact composite FK (PK) uniqueness.
+4. Referential integrity (fact FK → dim BK).
 
 **Transformations** (Dataflow Gen2):
-•	Joins (Orders → Order Details).
-•	Derived measures (discount as %).
-•	Type conversions, null handling.
-•	Surrogate key prep.
+• Joins (Orders → Order Details).
+• Derived measures (discount as %).
+• Type conversions, null handling.
+• Surrogate key prep.
 
 ## Run Locally 
-1.	Fabric → New workspace, import structure.
-2.	Load source CSVs to Lakehouse.
-3.	Execute: STG Load → Validate → DW Load.
-4.	Query: SELECT * FROM fact_sales (sample matches).
+1. Fabric → New workspace, import structure.
+2. Load source CSVs to Lakehouse.
+3. Execute: STG Load → Validate → DW Load.
+4. Query: SELECT * FROM fact_sales (sample matches).
 
 ## Files 
 
 ## Next Steps 
-•	Power BI semantic model + dashboards.
-
-
-
-
-
+• Power BI semantic model + dashboards.
