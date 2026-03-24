@@ -46,7 +46,7 @@ The database structure is a star schema which consist of the below tables.
 
 <img width="1546" height="1004" alt="Source csv files" src="https://github.com/user-attachments/assets/a3295d0b-d643-4bd9-91b2-9cc89f0a7849" />
 <br><br>
-**Staging Area**
+**Staging Area** 
 <img width="1768" height="712" alt="Staging Area IMSALES" src="https://github.com/user-attachments/assets/7f5286b8-67fc-4348-b266-46128f7832bd" />
 
 - STG_PROJECT1_IMSALES DW
